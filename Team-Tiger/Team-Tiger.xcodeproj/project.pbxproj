@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0BA4B976596ED08FFF08B4B9 /* Pods_Team_Tiger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F028E074D7FAE028C8606F /* Pods_Team_Tiger.framework */; };
+		1736EBB01D58C7E100144D8C /* LocationStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736EBAF1D58C7E100144D8C /* LocationStuff.swift */; };
 		4F45BF191D53D0290029FD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45BF181D53D0290029FD30 /* AppDelegate.swift */; };
 		4F45BF1B1D53D0290029FD30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45BF1A1D53D0290029FD30 /* ViewController.swift */; };
 		4F45BF1E1D53D0290029FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F45BF1C1D53D0290029FD30 /* Main.storyboard */; };
 		4F45BF211D53D0290029FD30 /* Team_Tiger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F45BF1F1D53D0290029FD30 /* Team_Tiger.xcdatamodeld */; };
 		4F45BF231D53D0290029FD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F45BF221D53D0290029FD30 /* Assets.xcassets */; };
 		4F45BF261D53D0290029FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F45BF241D53D0290029FD30 /* LaunchScreen.storyboard */; };
-		4F45BF2E1D53D1800029FD30 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45BF2D1D53D1800029FD30 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1736EBAF1D58C7E100144D8C /* LocationStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationStuff.swift; sourceTree = "<group>"; };
 		4F45BF151D53D0290029FD30 /* Team-Tiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team-Tiger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F45BF181D53D0290029FD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F45BF1A1D53D0290029FD30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		4F45BF221D53D0290029FD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F45BF251D53D0290029FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F45BF271D53D0290029FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F45BF2D1D53D1800029FD30 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		B8F028E074D7FAE028C8606F /* Pods_Team_Tiger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Team_Tiger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC21F1BA4EA10675A2E124BD /* Pods-Team-Tiger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Team-Tiger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Team-Tiger/Pods-Team-Tiger.debug.xcconfig"; sourceTree = "<group>"; };
 		E83E6536EDBEF2304A04FA92 /* Pods-Team-Tiger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Team-Tiger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Team-Tiger/Pods-Team-Tiger.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				4F45BF181D53D0290029FD30 /* AppDelegate.swift */,
-				4F45BF2D1D53D1800029FD30 /* Secrets.swift */,
 				4F45BF1A1D53D0290029FD30 /* ViewController.swift */,
+				1736EBAF1D58C7E100144D8C /* LocationStuff.swift */,
 				4F45BF1C1D53D0290029FD30 /* Main.storyboard */,
 				4F45BF221D53D0290029FD30 /* Assets.xcassets */,
 				4F45BF241D53D0290029FD30 /* LaunchScreen.storyboard */,
@@ -218,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F45BF211D53D0290029FD30 /* Team_Tiger.xcdatamodeld in Sources */,
-				4F45BF2E1D53D1800029FD30 /* Secrets.swift in Sources */,
+				1736EBB01D58C7E100144D8C /* LocationStuff.swift in Sources */,
 				4F45BF1B1D53D0290029FD30 /* ViewController.swift in Sources */,
 				4F45BF191D53D0290029FD30 /* AppDelegate.swift in Sources */,
 			);
